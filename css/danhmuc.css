@@ -1,0 +1,324 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+/******************************************/
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 920px;
+}
+.thanhtimkiem{
+    width: 100%;
+    height: 100px;
+   padding-top: 10px;
+   margin: 0 auto;
+}
+.thanhtimkiem ul{
+    list-style: none;
+}
+.thanhtimkiem ul li{
+    float: left;
+}
+/***************************************/
+.search{
+    height: 60px;
+    width: 520px;
+    display: inline-block;
+    margin-left: 150px;
+}
+.search input{
+    width: 436px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.search button{
+    width: 54px;
+    height: 63px;
+}
+.search button img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+/**************************************************/
+.tkgh{
+    width: 300px;
+    height: 50px;
+    margin-left: 70%;
+    margin-top: -50px;
+}
+.tkgh a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tkgh a img{
+    width: 50px;
+    height: 50px;
+    color: black;
+    vertical-align: middle;
+}
+/**********************************************************/
+.thanhcongcu{
+    width: 100%;
+    height: 50px;
+    background-color:crimson ;
+}
+.thanhcongcu >ul{
+    background-color: crimson;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.thanhcongcu >ul >li >a{
+    margin-left: 130px;
+}
+.thanhcongcu >ul >li{
+    display: inline-block;
+    line-height: 50px;
+}
+.thanhcongcu >ul >li >a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+.thanhcongcu >ul >li >a:hover{
+    color: yellow;
+}
+.thanhcongcu li{
+    position: relative;
+}
+.menu-con{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    list-style-type: none;
+    display: none;
+    z-index: 1;
+    border: solid 1px ghostwhite;
+ }
+ .menu-con >li{
+    display: inline-block;
+    width: 195px;
+ }
+ .thanhcongcu li:hover .menu-con{
+    display:block;
+ }
+ .menu-con >li >a{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+ }
+ .menu-con >li >a:hover{
+    color: rgb(255, 202, 103);
+ }
+ .menu-con >li >h1{
+    font-size: 17px;
+    color: rgb(163, 0, 0);
+    text-align: left;
+ }
+ /**********************************************************/
+ .anhdanhmuc >img{
+   max-width: 100%;
+    height: auto;
+ }
+ .dm{
+    margin-bottom: 15px;
+    width: 20%;
+    height: 500px;
+    margin-left: 100px;
+    float: left;
+    
+ }
+
+.menu-collection >li >a{
+   text-decoration: none;
+   color: black;
+   margin-left: -35px;
+   
+}
+.menu-collection >li >a:hover{
+   color: orange;
+}
+.menu-collection{
+   list-style: none;
+   text-align: left;
+}
+ .danhmuc >.dm >.tenkhoi{
+    padding: 15px;
+    background: #d80027;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 0
+    
+ }
+ .danhmuc >.dm >.tenkhoi >.title-group{
+    font-size: 13px;
+    color: #fff;
+    margin: 0;
+ }
+ h2{
+    font-family: 'Encode Sans Expanded', sans-serif;
+ }
+ /****************************************************************/
+ .phansanpham{
+    margin-bottom: 15px;
+    width: 980px;
+    height: 1050px;
+    margin-right: 100px;
+    float: right;
+ }
+ .de >h4{
+    font-size: 18px;
+    color: black;
+    margin: 0;
+ }
+ .de{
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 0
+ }
+ .tr a img{
+    width: 160px;
+    height: 240px;
+  margin-left: 23px;
+}
+.gthieu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 150px;
+}
+.gthieu li{
+    flex-basis: 33%;
+}
+.tsanpham{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tsanpham:hover{
+    color: orangered;
+}
+.ttin{
+    text-align: center;
+}
+.gtien{
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+}
+.gtien li .ttin a{
+    display: block;
+}
+.vpham{
+    width: 250px;
+    height: 450px;
+    border: solid gainsboro 3px;
+    margin-bottom: 50px;
+}
+.tr >.asanpham >img{
+    width: 200px;
+    height: 300px;
+}
+/****************************************************************************/
+.cart{
+    overflow: hidden;  /*Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được dấu đi.*/
+    padding: 20px 0 25px;
+    text-align: center;
+}
+.cart button{
+    display: inline-block;
+    border: 2px solid #d7d7d7;
+    padding: 0 23px;
+    text-transform: uppercase;
+    text-shadow: none;
+    line-height: 30px;
+    color: #b0b0b0;
+    font-size: 12px;
+    font-weight: 900;
+    background: transparent;           /*Nền của phần tử sẽ có màu trong suốt.*/
+    position: relative;
+}
+.cart button:hover{
+    color: orange;
+    border-color: orange;
+}
+/*****************************************************************************************/
+.form-checkbox .checkbox-item{
+    display: block;
+}
+
+/**************************************************************************************************/
+.footer{
+    width: 100%;
+    height: 300px;
+    background-image: url(/images/backgrounf_footer.webp);
+    padding: 75px 0 30px;
+    font-size: 13px;
+    color: white;
+    line-height: 15px;
+    position: absolute;
+    margin-top: 1100px;
+}
+.footer .logo-footer{
+    margin-left: 120px;
+}
+.footer .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer .row .col{
+    flex-basis: 25%;
+}
+.footer .row .col h3{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.footer .row .col li{
+    list-style: none;
+}
+.footer .row .col li a{
+    text-decoration: none;
+}
+.col ul li a{
+    color: white;
+    font-size: 15px;
+}
+.col ul li a:hover{
+    color: yellow;
+}
+.footer .row .col .timk input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.footer .row .col .timk button{
+    width: 40px;
+    height: 37px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+
+
